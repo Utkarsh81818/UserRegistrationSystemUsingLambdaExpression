@@ -1,5 +1,11 @@
 package org.bridgelabz;
 
+/**
+ * Purpose  - To validate the mood of the user and handling the exception
+ * @author  - Utkarsh Mishra
+ * @version - 16.0
+ * @since   - 2021-10-07
+ */
 
 public class MoodAnalyser {
 
