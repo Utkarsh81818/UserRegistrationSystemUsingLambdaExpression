@@ -9,6 +9,11 @@ import java.util.regex.Pattern;
  * @since   - 2021-10-05
  */
 
+@FunctionalInterface
+interface UserDetailsValidationFI {
+    boolean validate(String x) throws UserRegistrationException;
+}
+
 public class UserRegistration {
 
     // Created a method to validate first name
