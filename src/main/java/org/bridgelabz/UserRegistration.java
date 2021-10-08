@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 @FunctionalInterface
 interface UserDetailsValidationFI {
-    public boolean validate(String x) throws UserRegistrationException;
+    boolean validate(String x) throws UserRegistrationException;
 }
 
 public class UserRegistration {

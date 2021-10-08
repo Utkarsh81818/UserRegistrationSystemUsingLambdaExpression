@@ -5,10 +5,10 @@ import org.junit.Test;
 
 public class UserRegistrationTest {
     UserRegistration userRegistration = new UserRegistration();
-     /*
-       Unit test for validating first name starts with Capital Letter
-       Used try catch block to handle the exception
-    */
+    /*
+      Unit test for validating first name starts with Capital Letter
+      Used try catch block to handle the exception
+   */
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
         try {
